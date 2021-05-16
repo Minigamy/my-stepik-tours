@@ -28,3 +28,4 @@ urlpatterns = [
 
 handler404 = custom_handler404
 handler500 = custom_handler500
+
