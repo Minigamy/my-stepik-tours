@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.main_view, name='main'),
     path('departure/<str:departure>/', views.departure_view, name='depart'),
-    path('tour/<int:id>/', views.tour_view, name='tour'),
+    path('tour/<int:tour_id>/', views.tour_view, name='tour'),
 ]
 
 handler404 = custom_handler404
